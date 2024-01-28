@@ -12,8 +12,8 @@ import SimpleMDE from 'react-simplemde-editor'
 
 import ErrorMessage from '@/app/components/ErrorMessage'
 import Spinner from '@/app/components/Spinner'
-import { z } from 'zod'
 import { Issue } from '@prisma/client'
+import { z } from 'zod'
 
 type IssueFormData = z.infer<typeof issueSchema>
 
